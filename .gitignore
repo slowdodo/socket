@@ -1,8 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c
-# Edit at https://www.toptal.com/developers/gitignore?templates=c
-
 ### C ###
-!*.*
 # Prerequisites
 *.d
 
@@ -59,3 +55,16 @@ dkms.conf
 # End of https://www.toptal.com/developers/gitignore/api/c
 
 *.dat
+
+# 파일제거안되서 직접추가 find . -executable -type f >>.gitignore
+./my_test/02_Part/01_tcp_client/tcp_client
+./my_test/02_Part/02_test/server
+./my_test/02_Part/02_test/client
+./my_test/01_Part/04_low_read/low_read
+./my_test/01_Part/01_hello_server/hello_server
+./my_test/01_Part/05_fc_seri/fd_seri
+./my_test/01_Part/02_hello_client/hello_client
+./my_test/01_Part/03_low_open/data
+./my_test/01_Part/03_low_open/low_open
+./my_test/01_Part/08_low_ANSI_level_IO/ANSI
+./my_test/01_Part/08_low_ANSI_level_IO/low_copy
