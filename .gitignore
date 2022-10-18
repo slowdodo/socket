@@ -3,5 +3,6 @@
 !*.md
 !*.dat
 !my_test
+!.*
 
 # 파일제거안되서 직접추가 find . -executable -type f >>.gitignore
